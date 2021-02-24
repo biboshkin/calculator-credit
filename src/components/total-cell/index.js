@@ -1,0 +1,1 @@
+export { TotalCell } from './total-cell'
