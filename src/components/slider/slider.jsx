@@ -3,7 +3,7 @@ import { Row, Col, Slider as SliderUI, InputNumber } from 'antd'
 
 export const Slider = ({ value, formatter, min, max, step, onChange, marks }) => (
   <Row style={{ marginBottom: "48px" }}>
-    <Col span={18}>
+    <Col span={15}>
       <SliderUI
         min={min}
         max={max}
@@ -14,7 +14,7 @@ export const Slider = ({ value, formatter, min, max, step, onChange, marks }) =>
         value={value}
       />
     </Col>
-    <Col span={4} offset={2}>
+    <Col span={6} offset={3}>
       <InputNumber
         min={min}
         max={max}
@@ -22,6 +22,7 @@ export const Slider = ({ value, formatter, min, max, step, onChange, marks }) =>
         onChange={onChange}
         formatter={formatter}
         value={value}
+        style={{ width: '100%' }}
       />
     </Col>
   </Row>

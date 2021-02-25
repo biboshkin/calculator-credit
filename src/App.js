@@ -9,14 +9,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Layout>
-          <Header>
+          <Header style={{ height: 'auto' }}>
             <Typography.Title style={{ color: "whitesmoke" }}>
               Расчёт параметров кредита
             </Typography.Title>
           </Header>
-          <Content style={{ height: '100vh' }}>
+          <Content>
             <Row>
-              <Col span={6} offset={8}>
+              <Col span={10} offset={10}>
                 <Calculator />
               </Col>
             </Row>
