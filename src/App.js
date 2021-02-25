@@ -16,7 +16,7 @@ function App() {
           </Header>
           <Content>
             <Row>
-              <Col span={10} offset={10}>
+              <Col span={8} offset={8}>
                 <Calculator />
               </Col>
             </Row>
